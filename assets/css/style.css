@@ -1,0 +1,234 @@
+body{
+    margin: 0 auto;
+    color:#777777;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url('../../assets/images/paper_fibers.png');
+}
+
+
+@media screen and (max-width:980px) {
+    .main-header, .main-content {
+      width:100%; 
+    }
+  }
+
+  @media screen and (max-width:768px) {
+    .main-header, .main-content {
+      width:100%; 
+    }
+  }
+
+  @media screen and (max-width:640px) {
+    .main-header, .main-content {
+      width:100%; 
+    }
+  }
+
+
+header{
+    border-bottom: #cccccc solid 1px;
+    background-color: #ffffff;
+    text-align: center;
+    top:0px;
+    position: fixed;
+    width:100%;
+    z-index: 2;
+}
+.main-header{
+    max-width: 960px;
+    background: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+    margin: 0 auto;
+    
+}
+
+nav ul{
+    list-style: none;
+    float: right;
+}
+
+nav li{
+    margin-top:12px;
+    display:inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    border-right: 0.5px solid #d5d9e0;
+    padding:0px 10px 0px 10px;
+}
+
+nav li:last-child{
+    padding: 0px 0px 0px 10px;
+    border: 0px;
+}
+
+#navbar-left{
+    background-color: #4aaaa5;
+    float:left;
+    padding: 25px;
+    color: white;
+    margin-top:0;
+    font-size: 20px;
+}
+
+.navbar-right{
+    text-decoration: none;
+    color: #777777; 
+    margin-left: 0 auto;
+}
+
+header ::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav a:hover{
+    color: #000000;
+}
+
+.main-content{
+    text-align: center;
+    margin-top:90px;
+}
+
+.body-content{
+    max-width: 960px;
+    text-align: left;
+    margin: 0 auto;
+    background-color: #ffffff;
+    color: #777777;
+}
+
+.body-content p{    
+    margin:0px 20px 0px 20px;
+    max-width: 920px;
+    margin-bottom: 60px;
+    text-align: justify;
+}
+
+img{
+    float:left;
+    padding-right:10px; 
+    padding-top:10px;
+}
+
+p{
+    line-height: 2;
+}
+
+.heading2{
+    border-bottom: 2px solid #cccccc ;
+    margin: 20px 20px 0px 20px;
+    padding-top: 10px;
+    color:#4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 920px;
+}
+footer{
+    border-top:8px solid #4aaaa5;  
+    background-color: #666666; 
+    height: 50px;
+    z-index: 100;
+    bottom: 0px;
+    left:0px;
+    position: fixed;
+    width: 100%;
+}
+
+form{
+    margin:20px 20px 20px 20px;
+    max-width: 920px;
+    margin-bottom: 60px;
+    text-align: justify;
+}
+
+.form{
+    max-width: 950px;    
+}
+input, textarea{
+    color: #777777;
+    padding: 5px;
+    width: 100%;
+    border: #dfdfdf solid 0.5px;
+    margin-top: 8px;
+    
+}
+
+.formfill{
+    margin-bottom: 10px;
+}
+
+#button{
+    max-width: 100px;
+    margin-top: 10px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin-bottom: 20px;
+    padding: 8px;
+    cursor: pointer;
+    
+}
+
+#button:hover {
+    background-color: #091d1c;
+  }
+
+textarea{
+    height: 160px;
+}
+
+.container-1{
+    width: 280px;
+    padding:20px 0px 0 20px;
+    float: left;
+    
+}
+
+.enclosed-container{
+    height: 980px;
+}
+
+#PF1, #PF2, #PF3, #PF4, #PF5{
+    background-repeat: no-repeat;
+    width: 280px;
+    height: 280px;
+    margin-bottom: 20px;
+    position: relative;
+} 
+
+.PFText{
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    position: absolute;
+    padding-top: 20px;
+    width: 100%;
+    position: absolute;
+    top: 200px;
+    height: 40px;
+
+    
+  
+
+
+}
+
+#PF1{
+    background-image: url(../../assets/images/PF1.jpg);
+}
+
+#PF2{
+    background-image: url(../../assets/images/PF2.jpg);
+}
+
+#PF3{
+    background-image: url(../../assets/images/PF3.jpg);
+}
+
+#PF4{
+    background-image: url(../../assets/images/PF4.jpg);
+}
+
+#PF5{
+    background-image: url(../../assets/images/PF5.jpg);
+}
