@@ -1,9 +1,16 @@
 body{
     margin: 0 auto;
     color:#777777;
-    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family:'Arial';
     background-image: url('../../assets/images/paper_fibers.png');
 }
+
+p{
+    font-size: 11px;
+    color: black;
+}
+
+
 
 
 @media screen and (max-width:980px) {
@@ -88,7 +95,7 @@ nav a:hover{
 
 .main-content{
     text-align: center;
-    margin-top:90px;
+    margin-top:110px;
 }
 
 .body-content{
